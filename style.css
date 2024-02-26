@@ -1,0 +1,37 @@
+body {
+    font-family: "Prompt", sans-serif ;
+    font-weight: 100 ;
+    font-style: normal;
+  }
+  .supalapa2{
+    position: relative;
+    top: -20rem;
+    margin: 6rem !important;
+}
+.supalapa22{
+  top: 5rem;
+}
+.bg-purp{
+  background-color: #350E38;
+  padding: 20px;
+  border-radius: 5px;
+  line-height: 2rem;
+}
+.sticky2{
+  position: sticky;
+  top: 80px;
+}
+@media only screen and (max-width: 688px) {
+  .sticky2{
+    position: static;
+  }
+  .supalapa2{
+   
+    margin: 0rem !important;
+  }
+    
+    .supalapa22{
+      top: 0rem;
+  }
+    
+  }
